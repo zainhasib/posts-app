@@ -1,0 +1,35 @@
+body {
+    background: rgb(27, 27, 27);
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header h1 {
+    color: #fff;
+    text-align: center;
+}
+.post-title {
+    color: #fff;
+}
+.post-item {
+    color: rgb(235, 235, 235);
+    list-style: none;
+}
+.post-item a {
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
+.post-item a:hover {
+    color: orange;
+}
+.post-card {
+    min-height: 100px;
+    height: auto;
+    background: #fff;
+    color: #000;
+    font-family: sans-serif;
+    padding: 30px;
+    border-radius: 8px;
+    margin: 10px;
+}
