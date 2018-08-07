@@ -19,10 +19,8 @@ def index(request):
 def details(request, id):
 
     post = Posts.objects.get(id=id)
-    arr = np.array(["Zain","Saloni"])
     context = {
         'post': post,
-        'arr': arr
     }
 
     return render(request, 'posts/details.html', context)
