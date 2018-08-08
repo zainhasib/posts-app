@@ -1,5 +1,7 @@
 body {
     background: rgb(27, 27, 27);
+    color: #fff;
+    overflow: auto;
 }
 .container {
     width: 80%;
@@ -39,6 +41,9 @@ header h1 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-auto-flow: row;
+}
+.post-card a {
+    color: #000;
 }
 .gallery-body {
     display: grid;

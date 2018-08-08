@@ -8,6 +8,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('posts/', include('posts.urls')),
     path('gallery/', include('gallery.urls')),
+    path('machine/', include('machine.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
